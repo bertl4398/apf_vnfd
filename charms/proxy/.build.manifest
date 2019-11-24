@@ -1,0 +1,288 @@
+{
+  "layers": [
+    {
+      "rev": "fcdcea4e5de3e1556c24e6704607862d0ba00a56",
+      "url": "layer:options"
+    },
+    {
+      "rev": "1d2489bff56daf2f8d1c06ee9248bb0094e4ad49",
+      "url": "layer:basic"
+    },
+    {
+      "rev": null,
+      "url": "proxy"
+    }
+  ],
+  "signatures": {
+    ".build.manifest": [
+      "build",
+      "dynamic",
+      "unchecked"
+    ],
+    ".gitignore": [
+      "layer:basic",
+      "static",
+      "0da5c4dcda27cd6406e5bb81cbf68ddccaf728ac764ec15053a165c1449d87d9"
+    ],
+    "LICENSE": [
+      "layer:basic",
+      "static",
+      "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    ],
+    "Makefile": [
+      "layer:basic",
+      "static",
+      "b7ab3a34e5faf79b96a8632039a0ad0aa87f2a9b5f0ba604e007cafb22190301"
+    ],
+    "README.ex": [
+      "proxy",
+      "static",
+      "eb25333fb6ee2abc2d5dde329dfd6b4b2a6dd5516094e75354fb6cd84010afad"
+    ],
+    "README.md": [
+      "layer:basic",
+      "static",
+      "92dcf485a5356407aa1c92da864dfc14c14bb6b9b15879fdcf75dd7f7a29c0bf"
+    ],
+    "bin/charm-env": [
+      "layer:basic",
+      "static",
+      "458c53532c19ee357cbf4209ccc7d811810718ba0ea3b0588b3d3ef040a44b8e"
+    ],
+    "bin/layer_option": [
+      "layer:options",
+      "static",
+      "e959bf29da4c5edff28b2602c24113c4df9e25cdc9f2aa3b5d46c8577b2a40cc"
+    ],
+    "config.yaml": [
+      "proxy",
+      "dynamic",
+      "5b15e5b4b79252769b1a8ef8d9d6370f2a217d88123fbb8d1f869f1d1824e51a"
+    ],
+    "copyright": [
+      "layer:basic",
+      "static",
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ],
+    "copyright.layer-options": [
+      "layer:options",
+      "static",
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ],
+    "hooks/config-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/hook.template": [
+      "layer:basic",
+      "static",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/install": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/leader-elected": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/leader-settings-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/post-series-upgrade": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/pre-series-upgrade": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/start": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/stop": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/update-status": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/upgrade-charm": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "icon.svg": [
+      "proxy",
+      "static",
+      "d20624e9389af6506a8d8a69ac9bba4d41709601b624c0875fd7d6717b395088"
+    ],
+    "layer.yaml": [
+      "proxy",
+      "dynamic",
+      "ee724b13327a76030f9221a4af55473fc3b06e061270b26e9508e51c58e08f58"
+    ],
+    "lib/charms/layer/__init__.py": [
+      "layer:basic",
+      "static",
+      "dfe0d26c6bf409767de6e2546bc648f150e1b396243619bad3aa0553ab7e0e6f"
+    ],
+    "lib/charms/layer/basic.py": [
+      "layer:basic",
+      "static",
+      "445652dbaa1f0b84a7215da185bcbdff097bb9bbbce11b4c2dbbff90f77719a9"
+    ],
+    "lib/charms/layer/execd.py": [
+      "layer:basic",
+      "static",
+      "fda8bd491032db1db8ddaf4e99e7cc878c6fb5432efe1f91cadb5b34765d076d"
+    ],
+    "lib/charms/layer/options.py": [
+      "layer:options",
+      "static",
+      "8ae7a07d22542fc964f2d2bee8219d1c78a68dace70a1b38d36d4aea47b1c3b2"
+    ],
+    "metadata.yaml": [
+      "proxy",
+      "dynamic",
+      "e83ac51eb937dd8d44093ae378b64ff30cc16fbca79dd105645ecb65ad450ba7"
+    ],
+    "reactive/__init__.py": [
+      "layer:basic",
+      "static",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ],
+    "reactive/proxy.py": [
+      "proxy",
+      "static",
+      "e890b1daa72b55fb52b5371306ca9ebb810eacf3d77be9b8aa6d8c4966520b73"
+    ],
+    "requirements.txt": [
+      "layer:basic",
+      "static",
+      "0f1c70d27e26005a96d66ad54482877ae20f7737693c833e29dd72bd6ac24892"
+    ],
+    "templates/http_alert.tick.j2": [
+      "proxy",
+      "static",
+      "71ee394db87b5860dfec9673a0f626a7423b24674b9c9df976a2ab781a526d8d"
+    ],
+    "templates/iptables.save.j2": [
+      "proxy",
+      "static",
+      "fe38566a6e9799541b60c024c8a08c69ca13a000d8a8aa201241d8dba871ff36"
+    ],
+    "templates/proxy-agentd.service.j2": [
+      "proxy",
+      "static",
+      "775ba7bc45a3e9ffd32268cec0171d0c9d9bb265086400b836bb80a76bafffb7"
+    ],
+    "templates/proxy_conf.json.j2": [
+      "proxy",
+      "static",
+      "712cfefb2d0279386fd5dc7e4a502eb2d2402ce039e897b49dae157cdfe6247d"
+    ],
+    "templates/traefik.service.j2": [
+      "proxy",
+      "static",
+      "26f18bde1c5d2175a77b877887701bea5871266ff11e8779d504cc9ebbe93f9f"
+    ],
+    "templates/traefik.toml.j2": [
+      "proxy",
+      "static",
+      "3f2d2f0a6770fa9c5a97551452f7885f4ded1a3358116dd377a6f8529dad5272"
+    ],
+    "templates/ulogd.conf.j2": [
+      "proxy",
+      "static",
+      "0ea925ceb25027cc9d1512a7d33a7600c1486c4c703d3230284834744de9e153"
+    ],
+    "tests/00-setup": [
+      "proxy",
+      "static",
+      "111c079b81d260bbcd716dcf41672372a4cf4aaa14154b6c3055deeedae37a06"
+    ],
+    "tests/10-deploy": [
+      "proxy",
+      "static",
+      "97a0d2a39f3fae527557e03220baddecd50ff407a5bb1456effa025999d18415"
+    ],
+    "wheelhouse/Jinja2-2.10.3.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "9fe95f19286cfefaa917656583d020be14e7859c6b0252588391e47db34527de"
+    ],
+    "wheelhouse/MarkupSafe-1.1.1.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"
+    ],
+    "wheelhouse/PyYAML-5.1.2.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "01adf0b6c6f61bd11af6e10ca52b7d4057dd0be0343eb9283c878cf3af56aee4"
+    ],
+    "wheelhouse/Tempita-0.5.2.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "cacecf0baa674d356641f1d406b8bff1d756d739c46b869a54de515d08e6fc9c"
+    ],
+    "wheelhouse/charmhelpers-0.20.6.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "b1b38cfa4f8dbb67c92d9282f54522a57dc6a46e6f92e9e6d15132e6bbbc8718"
+    ],
+    "wheelhouse/charms.reactive-1.3.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "82d2c614c82d64bf56e913990f22663e5de64b99db15838abfd9a064f1cc2f51"
+    ],
+    "wheelhouse/netaddr-0.7.19.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "38aeec7cdd035081d3a4c306394b19d677623bf76fa0913f6695127c7753aefd"
+    ],
+    "wheelhouse/pip-18.1.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "c0a292bd977ef590379a3f05d7b7f65135487b67470f6281289a94e015650ea1"
+    ],
+    "wheelhouse/pyaml-19.4.1.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "c79ae98ececda136a034115ca178ee8bf3aa7df236c488c2f55d12f177b88f1e"
+    ],
+    "wheelhouse/setuptools-41.6.0.zip": [
+      "layer:basic",
+      "dynamic",
+      "6afa61b391dcd16cb8890ec9f66cc4015a8a31a6e1c2b4e0c464514be1a3d722"
+    ],
+    "wheelhouse/setuptools_scm-1.17.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "70a4cf5584e966ae92f54a764e6437af992ba42ac4bca7eb37cc5d02b98ec40a"
+    ],
+    "wheelhouse/six-1.13.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "30f610279e8b2578cab6db20741130331735c781b56053c59c4076da27f06b66"
+    ],
+    "wheelhouse/wheel-0.33.6.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "10c9da68765315ed98850f8e048347c3eb06dd81822dc2ab1d4fde9dc9702646"
+    ]
+  }
+}
